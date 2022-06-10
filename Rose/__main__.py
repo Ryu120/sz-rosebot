@@ -93,12 +93,6 @@ home_keyboard_pm = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="📓 Documentation",
-                url=f"https://szsupunma.gitbook.io/rose-bot/",
-            )
-        ],
-        [
-            InlineKeyboardButton(
                 text=" ➕ Add Me To Your Group ➕ ",
                 url=f"http://t.me/{BOT_USERNAME}?startgroup=new",
             )
@@ -235,8 +229,7 @@ async def help_parser(name, keyboard=None):
 
 I'm a group management bot with some useful features.
 You can choose an option below, by clicking a button.
-If you have any bugs or questions on how to use me, 
-have a look at my [Docs](https://szsupunma.gitbook.io/rose-bot/), or head to @szteambots.
+I am from this world [JUJUTSU](https://t.me/Jjk_tech).
 
 **All commands can be used with the following: / **""",
         keyboard,
