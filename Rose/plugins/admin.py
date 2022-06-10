@@ -134,8 +134,6 @@ async def sendasbot(client, message: Message, _):
 
 @app.on_message(
     filters.command(["promote", "fullpromote"])
-    & ~filters.edited
-    & ~filters.private
 )
 @adminsOnly("can_promote_members")
 async def promoteFunc(_, message: Message):
