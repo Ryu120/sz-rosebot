@@ -38,12 +38,6 @@ keyboard = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="🌎 Help us with translation",
-                url=f"https://crwd.in/szrosebot",
-            )
-        ],
-        [
-            InlineKeyboardButton(
                 text="Close ✖️", callback_data="close_data"
             ),
         ],
