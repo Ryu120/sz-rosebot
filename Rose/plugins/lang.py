@@ -39,8 +39,8 @@ keyboard = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="🌎 Help us with translation",
-                url=f"https://crwd.in/szrosebot",
+                text="Our Domain",
+                url=f"https://t.me/Jjk_Tech",
             )
         ],
         [
