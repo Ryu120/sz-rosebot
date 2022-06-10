@@ -85,7 +85,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
         ],
         [
            InlineKeyboardButton(
-                text="👨‍🦯 About", callback_data="_about"
+                text="Our Domain", url="http://t.me/Jjk_Tech"
             ),
             InlineKeyboardButton(
                 text="🌎 languages ", callback_data="_langs"
