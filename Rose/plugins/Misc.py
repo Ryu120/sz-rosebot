@@ -170,7 +170,7 @@ async def whois(client, message):
 #search engine
 
 # google
-@app.on_message(filters.command("google") & ~filters.edited)
+@app.on_message(filters.command("google"))
 async def google(_, message):
     try:
         if len(message.command) < 2:
@@ -194,7 +194,7 @@ async def google(_, message):
 
 
 # StackOverflow 
-@app.on_message(filters.command("so") & ~filters.edited)
+@app.on_message(filters.command("so"))
 async def stack(_, message):
     try:
         if len(message.command) < 2:
@@ -219,7 +219,7 @@ async def stack(_, message):
 
 
 # Github 
-@app.on_message(filters.command("github") & ~filters.edited)
+@app.on_message(filters.command("github"))
 async def github(_, message):
     try:
         if len(message.command) < 2:
@@ -262,7 +262,7 @@ async def paste(content: str):
     return BASE + resp["message"]
 
 
-@app.on_message(filters.command("paste") & ~filters.edited)
+@app.on_message(filters.command("paste"))
 async def paste_func(_, message: Message):
     if not message.reply_to_message:
         return await message.reply_text("Reply To A Message With `/paste`")
